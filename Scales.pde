@@ -3,7 +3,7 @@ void setup() {
 }
 
 void draw() {
-  rabbitFace(0, 1000);
+
   for (int y = 150; y < 1500; y += 300) {
     for (int x = 150; x < 1500; x = x + 300) {
       rabbitFace(x, y);
